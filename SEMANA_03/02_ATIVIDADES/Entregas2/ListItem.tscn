@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="ListItem" type="Panel"]
+margin_right = 431.0
+margin_bottom = 46.0
+
+[node name="number" type="Label" parent="."]
+margin_left = 25.0
+margin_top = -3.0
+margin_right = 93.0
+margin_bottom = 39.0
+text = "#"
+align = 1
+valign = 1
+
+[node name="label" type="Label" parent="."]
+margin_left = 128.0
+margin_top = -2.0
+margin_right = 423.0
+margin_bottom = 40.0
+text = "label"
+valign = 1
